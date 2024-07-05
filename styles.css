@@ -16,6 +16,7 @@ button {
     color: #F9FAF8;
     padding: 8px 16px;
     border-radius: 8px;
+    border-color: #F9FAF8;
 }
 
 .dark-background {
@@ -87,6 +88,11 @@ button {
     align-items: center;
 }
 
+.information h2{
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
 .information .image{
     width: 100px;
     height: 100px;
@@ -108,14 +114,30 @@ button {
     align-items: center;
 }
 .quote-wrapper {
-    width: 50%;
+    width: 75%;
     margin: 0 auto;
 }
 .quote-wrapper p{
     text-align: right;
 }
 
+.quote {
+    background-color: #E5E7EB;
+}
+.quote q{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937
+}
+.quote p{
+    font-size: 28px;
+    font-weight: bold;
+}
 .call-to-action{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #3882F6;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
