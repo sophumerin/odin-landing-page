@@ -1,18 +1,24 @@
 body {
     display: flex;
     flex-direction: column;
-    max-width: 80vw;
+    
     margin: 0 auto;
 }
 
-body > div{
-    padding: 36px;
+body > div {
+    padding: 24px 15vw;
     display: flex;
     align-items: center;
 }
 
-.header {
-    padding: 0;
+.dark-background {
+    background-color: #1F2937;
+}
+
+.header,
+.footer {
+    padding-top: 0;
+    padding-bottom: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -41,7 +47,7 @@ body > div{
     align-items: center;
     justify-content: center;   
     background-color: gray;
-    width: 225px;
+    width: 400px;
     height: 225px;
 }
 
@@ -90,5 +96,5 @@ body > div{
 }
 
 .footer p{
-    margin: 0 auto;
+    margin: 1em auto;
 }
